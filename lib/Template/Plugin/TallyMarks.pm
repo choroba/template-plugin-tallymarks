@@ -8,7 +8,7 @@ use parent 'Template::Plugin::Filter';
 
 =head1 NAME
 
-Template::Plugin::TallyMarks - The great new Template::Plugin::TallyMarks!
+Template::Plugin::TallyMarks - Convert numbers to tally marks.
 
 =head1 VERSION
 
@@ -21,23 +21,20 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
+The module implements a filter that changes a number into tally marks.
 
-Perhaps a little code snippet.
+    use Template;
+    my $tt = 'Template'->new;
+    $tt->process( \ '[% USE TallyMarks %][% n | tally_marks %]',
+                  { n => 12 },
+                  \ my $result );
+    print $result;  # <s>||||</s>&nbsp;<s>||||</s>&nbsp;||
 
-    use Template::Plugin::TallyMarks;
+=head1 Filters
 
-    my $foo = Template::Plugin::TallyMarks->new();
-    ...
+=head2 tally_marks
 
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
+Transforms the input parameter into tally marks.
 
 =cut
 
@@ -144,4 +141,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Template::Plugin::TallyMarks
+__PACKAGE__
