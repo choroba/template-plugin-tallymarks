@@ -4,6 +4,8 @@ use 5.006;
 use strict;
 use warnings;
 
+use parent 'Template::Plugin::Filter';
+
 =head1 NAME
 
 Template::Plugin::TallyMarks - The great new Template::Plugin::TallyMarks!
@@ -39,14 +41,18 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =cut
 
-sub function1 {
+sub init {
+    my $self = shift;
+    $self->install_filter('tally_marks');
+    return $self
 }
 
-=head2 function2
 
-=cut
-
-sub function2 {
+sub filter {
+    my ($self, $n) = @_;
+    return join '&nbsp;',
+                ('<s>||||</s>') x int($n / 5),
+                ('|' x ($n % 5)) || ()
 }
 
 =head1 AUTHOR
