@@ -28,6 +28,9 @@ WriteMakefile(
     BUILD_REQUIRES => {
         'Test::More' => 0,
     },
+    TEST_REQUIRES => {
+        'Test::CheckManifest' => 0.9,
+    },
     PREREQ_PM => {
         Template => 0,
         'Template::Plugin::Filter' => 0,
