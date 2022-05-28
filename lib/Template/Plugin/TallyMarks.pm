@@ -76,21 +76,13 @@ You can also look for information at:
 
 =over 4
 
-=item * RT: CPAN's request tracker (report bugs here)
+=item * BUG Report
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Template-Plugin-TallyMarks>
+L<https://github.com/choroba/template-plugin-tallymarks/issues>
 
-=item * AnnoCPAN: Annotated CPAN documentation
+=item * Search MetaCPAN
 
-L<http://annocpan.org/dist/Template-Plugin-TallyMarks>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Template-Plugin-TallyMarks>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Template-Plugin-TallyMarks/>
+L<https://metacpan.org/dist/Template-Plugin-TallyMarks>
 
 =back
 
