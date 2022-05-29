@@ -62,9 +62,6 @@ Please report any bugs or feature requests to C<bug-template-plugin-tallymarks a
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Template-Plugin-TallyMarks>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
-
-
-
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
@@ -76,27 +73,28 @@ You can also look for information at:
 
 =over 4
 
+=item * MetaCPAN
+
+L<https://metacpan.org/Template::Plugin::TallyMarks>
+
+=item * GitHub Repository
+
+L<https://github.com/choroba/template-plugin-tallymarks/>
+
 =item * RT: CPAN's request tracker (report bugs here)
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Template-Plugin-TallyMarks>
 
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Template-Plugin-TallyMarks>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Template-Plugin-TallyMarks>
-
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Template-Plugin-TallyMarks/>
+L<https://metacpan.org/dist/Template-Plugin-TallyMarks/>
 
 =back
 
 
 =head1 ACKNOWLEDGEMENTS
 
+Thanks to Mohammad S Anwar for contribution.
 
 =head1 LICENSE AND COPYRIGHT
 
