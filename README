@@ -21,17 +21,19 @@ perldoc command.
 
 You can also look for information at:
 
-    RT, CPAN's request tracker (report bugs here)
+    MetaCPAN
+        https://metacpan.org/Template::Plugin::TallyMarks
+
+    GitHub Repository
+
+        https://github.com/choroba/template-plugin-tallymarks/
+
+    RT: CPAN's request tracker (report bugs here)
+
         http://rt.cpan.org/NoAuth/Bugs.html?Dist=Template-Plugin-TallyMarks
 
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Template-Plugin-TallyMarks
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Template-Plugin-TallyMarks
-
     Search CPAN
-        http://search.cpan.org/dist/Template-Plugin-TallyMarks/
+        https://metacpan.org/dist/Template-Plugin-TallyMarks/
 
 
 LICENSE AND COPYRIGHT
@@ -42,7 +44,7 @@ This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
 copy of the full license at:
 
-L<http://www.perlfoundation.org/artistic_license_2_0>
+  http://www.perlfoundation.org/artistic_license_2_0
 
 Any use, modification, and distribution of the Standard or Modified
 Versions is governed by this Artistic License. By using, modifying or
