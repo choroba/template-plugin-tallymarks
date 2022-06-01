@@ -1,3 +1,4 @@
-^\.git
-^MANIFEST\.SKIP
-^\.travis\.yml
+.git/
+.gitignore
+MANIFEST.SKIP
+Template-Plugin-TallyMarks-*
