@@ -1,4 +1,10 @@
-.git/
-.gitignore
-MANIFEST.SKIP
-Template-Plugin-TallyMarks-*
+^\.git/
+^\.gitignore$
+^MANIFEST\.SKIP$
+^Template-Plugin-TallyMarks-*
+^blib/
+^Makefile$
+^MYMETA\.(?:json|yml)$
+^pm_to_blib$
+^README$
+.*~
